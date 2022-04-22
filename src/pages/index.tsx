@@ -7,7 +7,7 @@ export interface ISection {
   background: string;
 }
 
-const HomePage: NextPage = () => {
+const HomePage: NextPage = ({gitHubRepositories}) => {
   const sections: ISection[] = [
     {
       title: 'home',
