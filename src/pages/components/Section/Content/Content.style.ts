@@ -1,6 +1,12 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const StyledContent = styled.div`
+  @media all and (max-width: 550px) {
+    li {
+      margin-bottom: 20px;
+    }
+  }
+
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -29,6 +35,6 @@ const StyledContent = styled.div`
       text-decoration: none;
     }
   }
-`
+`;
 
-export default StyledContent
+export default StyledContent;

@@ -6,10 +6,19 @@ const ProjectsStyle = styled.div`
 
   div {
     width: 100%;
-    background-color: black;
+    padding-bottom: 40px;
 
     a:link {
+      font-size: 16pt;
       color: white;
+      font-weight: bolder;
+
+      &:hover {
+        background-color: blue;
+      }
+    }
+    p {
+      margin-top: 10px;
     }
   }
 `;

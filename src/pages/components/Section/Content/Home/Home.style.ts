@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import theme from '../../../../styles/theme'
+import styled from 'styled-components';
+import theme from '../../../../styles/theme';
 
 const StyledContentHome = styled.div`
   @keyframes showcontent {
@@ -31,7 +31,7 @@ const StyledContentHome = styled.div`
       font-family: ${theme.fontFamily.paragraph};
       font-size: 30px;
       text-align: center;
-      margin: 0 10px;
+      margin: 0 10px 30px;
       background-color: blue;
     }
   }
@@ -54,6 +54,6 @@ const StyledContentHome = styled.div`
       object-fit: cover;
     }
   }
-`
+`;
 
-export default StyledContentHome
+export default StyledContentHome;

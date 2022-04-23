@@ -15,11 +15,13 @@ const ContentProjects = ({
             return (
               <div key={repository.name}>
                 <Link href={repository.html_url}>
-                  <a target="_blank">
-                    <h2>{repository.name}</h2>
-                    <p>{repository.description}</p>
-                  </a>
+                  <a target="_blank">{repository.name}</a>
                 </Link>
+                <p>
+                  {repository.description
+                    ? repository.description
+                    : 'Projeto sem descrição no momento.'}
+                </p>
               </div>
             );
           })}

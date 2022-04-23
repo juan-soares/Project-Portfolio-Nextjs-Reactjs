@@ -6,6 +6,12 @@ interface IPropsSection {
 }
 
 const StyledSection = styled.section<IPropsSection>`
+  @media all and (max-width: 550px) {
+    p {
+      text-align: center;
+    }
+  }
+
   padding: 20px 0;
   background: ${theme.color.background}
     url(/assets/${(props) => props.backgroundImg}) no-repeat;
