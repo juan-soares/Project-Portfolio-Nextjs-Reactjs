@@ -19,6 +19,7 @@ const ProjectsStyle = styled.div`
     }
     p {
       margin-top: 10px;
+      font-size: 12pt;
     }
   }
 `;

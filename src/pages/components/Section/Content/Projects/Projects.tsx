@@ -18,9 +18,11 @@ const ContentProjects = ({
                   <a target="_blank">{repository.name}</a>
                 </Link>
                 <p>
-                  {repository.description
-                    ? repository.description
-                    : 'Projeto sem descrição no momento.'}
+                  <i>
+                    {repository.description
+                      ? repository.description
+                      : 'Projeto sem descrição no momento.'}
+                  </i>
                 </p>
               </div>
             );
