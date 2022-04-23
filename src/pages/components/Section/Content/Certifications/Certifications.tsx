@@ -3,12 +3,12 @@ import Link from 'next/link';
 import StyledContent from '../Content.style';
 import CertificationsCarroucel from './Certifications.style';
 import cssCertificate from '../../../../../../public/assets/Descubra-o-CSS.png';
-import programmingCertificate from '../../../../../../public/assets/Fundamentos-da-Programação.png';
-import agilManagementCertificate from '../../../../../../public/assets/Fundamentos-de-Gestão-Ágil-de-Projetos.png';
-import pooCertificate from '../../../../../../public/assets/Fundamentos-de-Programação-Design-Orientado-a-Objetos.png';
+import programmingCertificate from '../../../../../../public/assets/Fundamentos-da-Programacao.png';
+import agilManagementCertificate from '../../../../../../public/assets/Fundamentos-de-Gestao-Agil-de-Projetos.png';
+import pooCertificate from '../../../../../../public/assets/Fundamentos-de-Programacao-Design-Orientado-a-Objetos.png';
 import scrumCertificate from '../../../../../../public/assets/Fundamentos-do-Scrum.png';
-import htmlCertificate from '../../../../../../public/assets/HTML-Formação-Básica.png';
-import javaScriptCertificate from '../../../../../../public/assets/JavaScript-Formação-Básica.png';
+import htmlCertificate from '../../../../../../public/assets/HTML-Formacao-Basica.png';
+import javaScriptCertificate from '../../../../../../public/assets/JavaScript-Formacao-Basica.png';
 import fullStackCertificate from '../../../../../../public/assets/Programador-Full-Stack-JavaScript-Profissional.png';
 
 interface ICertificate {
@@ -44,7 +44,7 @@ const ContentCertifications = (): JSX.Element => {
       image: javaScriptCertificate,
     },
     {
-      title: 'Programador FullStack JavaScript Profissional',
+      title: 'Programador Full Stack JavaScript Profissional',
       image: fullStackCertificate,
     },
     {
@@ -65,7 +65,8 @@ const ContentCertifications = (): JSX.Element => {
                   .normalize('NFC')
                   .replace(/: /g, '-')
                   .replace(/ /g, '-')
-                  .normalize('NFD').replace(/[\u0300-\u036f]/g, '')}.png`}
+                  .normalize('NFD')
+                  .replace(/[\u0300-\u036f]/g, '')}.png`}
               >
                 <a target="_blank">
                   <Image src={certificate.image} width="200px" height="200px" />
