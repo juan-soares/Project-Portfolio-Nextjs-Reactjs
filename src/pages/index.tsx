@@ -2,12 +2,23 @@ import type { GetServerSideProps, NextPage } from 'next';
 import Navbar from './components/Navbar/Navbar';
 import Section from './components/Section/Section';
 
+export interface IGitHubRepository {
+  [unknownProperty: string]: string;
+}
+
+export interface IPropsGitHubRepositories {
+  gitHubRepositories: IGitHubRepository[];
+}
+
 export interface ISection {
   title: string;
   background: string;
+  gitHubRepositories?: IGitHubRepository[];
 }
 
-const HomePage: NextPage = ({gitHubRepositories}) => {
+const HomePage: NextPage<IPropsGitHubRepositories> = ({
+  gitHubRepositories,
+}: IPropsGitHubRepositories): JSX.Element => {
   const sections: ISection[] = [
     {
       title: 'home',
@@ -28,6 +39,7 @@ const HomePage: NextPage = ({gitHubRepositories}) => {
     {
       title: 'projetos',
       background: 'background-red.jpg',
+      gitHubRepositories: gitHubRepositories,
     },
     {
       title: 'contato',
@@ -38,13 +50,16 @@ const HomePage: NextPage = ({gitHubRepositories}) => {
   return (
     <div>
       <Navbar sections={sections} />
-      {sections.map((section: ISection) => (
-        <Section
-          key={section.title}
-          title={section.title}
-          background={section.background}
-        />
-      ))}
+      {sections.map((section: ISection) => {
+        return (
+          <Section
+            key={section.title}
+            title={section.title}
+            background={section.background}
+            gitHubRepositories={section.gitHubRepositories}
+          />
+        );
+      })}
     </div>
   );
 };

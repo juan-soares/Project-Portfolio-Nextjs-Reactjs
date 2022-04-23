@@ -14,7 +14,9 @@ const Section = (section: ISection): JSX.Element => {
       {section.title == 'sobre' && <ContentAbout />}
       {section.title == 'skills' && <ContentSkills />}
       {section.title == 'certificações' && <ContentCertifications />}
-      {section.title == 'projetos' && <ContentProjects />}
+      {section.title == 'projetos' && (
+        <ContentProjects gitHubRepositories={section.gitHubRepositories} />
+      )}
       {section.title == 'contato' && <ContentContact />}
     </StyledSection>
   );

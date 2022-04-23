@@ -1,24 +1,30 @@
 import Link from 'next/link';
-import { IGitHubRepository } from '../../../..';
+import { IGitHubRepository, IPropsGitHubRepositories } from '../../../..';
 import StyledContent from '../Content.style';
+import ProjectsStyle from './Projects.style';
 
-const ContentProjects = (
-  gitHubRepositories
-): JSX.Element => {
+const ContentProjects = ({
+  gitHubRepositories,
+}: IPropsGitHubRepositories): JSX.Element => {
   return (
     <StyledContent>
       <h1 id="projetos">Projetos</h1>
-      {/* {gitHubRepositories.map((repository: IGitHubRepository) => {
-        return (
-          <div key={repository.name}>
-            <Link href={repository.html_url}>
-              <a target="_blank">
-                <abbr title={repository.description}>{repository.name}</abbr>
-              </a>
-            </Link>
-          </div>
-        );
-      })} */}
+      <ProjectsStyle>
+        <>
+          {gitHubRepositories.map((repository: IGitHubRepository) => {
+            return (
+              <div key={repository.name}>
+                <Link href={repository.html_url}>
+                  <a target="_blank">
+                    <h2>{repository.name}</h2>
+                    <p>{repository.description}</p>
+                  </a>
+                </Link>
+              </div>
+            );
+          })}
+        </>
+      </ProjectsStyle>
     </StyledContent>
   );
 };

@@ -1,8 +1,8 @@
-import styled from 'styled-components'
-import theme from '../../styles/theme'
+import styled from 'styled-components';
+import theme from '../../styles/theme';
 
 interface IPropsSection {
-  backgroundImg: string
+  backgroundImg: string;
 }
 
 const StyledSection = styled.section<IPropsSection>`
@@ -20,6 +20,6 @@ const StyledSection = styled.section<IPropsSection>`
     width: 100%;
     height: 100%;
   }
-`
+`;
 
-export default StyledSection
+export default StyledSection;
