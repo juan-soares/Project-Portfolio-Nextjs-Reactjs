@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>JC Portifólio</title>
+        <title>JC Portfólio</title>
       </Head>
       <GlobalStyle />
       <Component {...pageProps} />

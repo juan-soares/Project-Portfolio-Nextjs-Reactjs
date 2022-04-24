@@ -13,7 +13,7 @@ const ContentAbout = (): JSX.Element => {
             <a target="_blank">UAM</a>
           </Link>
         </abbr>
-        , e neste portifólio te convido a conhecer um pouco de minhas
+        , e neste portfólio te convido a conhecer um pouco de minhas
         habilidades como{' '}
         <b>
           programador <i>front-end</i>
