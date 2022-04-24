@@ -1,6 +1,6 @@
 import type { GetServerSideProps, NextPage } from 'next';
-import Navbar from './components/Navbar/Navbar';
-import Section from './components/Section/Section';
+import Navbar from '../components/Navbar/Navbar';
+import Section from '../components/Section/Section';
 
 export interface IGitHubRepository {
   [unknownProperty: string]: string;

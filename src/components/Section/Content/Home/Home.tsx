@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import StyledContentHome from './Home.style';
-import Profile from '../../../../../../public/assets/profile.jpg';
+import Profile from '../../../../../public/assets/profile.jpg';
 
 const ContentHome = (): JSX.Element => {
   return (

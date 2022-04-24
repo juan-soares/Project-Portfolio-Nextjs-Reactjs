@@ -1,5 +1,5 @@
 import StyledNavbar from './Navbar.style';
-import { ISection } from '../../index';
+import { ISection } from '../../pages/index';
 
 interface ISections {
   sections: ISection[];

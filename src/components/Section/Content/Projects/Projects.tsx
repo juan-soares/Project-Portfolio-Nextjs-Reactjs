@@ -1,5 +1,6 @@
 import Link from 'next/link';
-import { IGitHubRepository, IPropsGitHubRepositories } from '../../../..';
+import { IGitHubRepository, IPropsGitHubRepositories } from '../../../../pages';
+
 import StyledContent from '../Content.style';
 import ProjectsStyle from './Projects.style';
 

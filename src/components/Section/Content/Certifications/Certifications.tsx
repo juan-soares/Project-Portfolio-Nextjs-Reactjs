@@ -2,14 +2,14 @@ import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
 import StyledContent from '../Content.style';
 import CertificationsCarroucel from './Certifications.style';
-import cssCertificate from '../../../../../../public/assets/Descubra-o-CSS.png';
-import programmingCertificate from '../../../../../../public/assets/Fundamentos-da-Programacao.png';
-import agilManagementCertificate from '../../../../../../public/assets/Fundamentos-de-Gestao-Agil-de-Projetos.png';
-import pooCertificate from '../../../../../../public/assets/Fundamentos-de-Programacao-Design-Orientado-a-Objetos.png';
-import scrumCertificate from '../../../../../../public/assets/Fundamentos-do-Scrum.png';
-import htmlCertificate from '../../../../../../public/assets/HTML-Formacao-Basica.png';
-import javaScriptCertificate from '../../../../../../public/assets/JavaScript-Formacao-Basica.png';
-import fullStackCertificate from '../../../../../../public/assets/Programador-Full-Stack-JavaScript-Profissional.png';
+import cssCertificate from '../../../../../public/assets/Descubra-o-CSS.png';
+import programmingCertificate from '../../../../../public/assets/Fundamentos-da-Programacao.png';
+import agilManagementCertificate from '../../../../../public/assets/Fundamentos-de-Gestao-Agil-de-Projetos.png';
+import pooCertificate from '../../../../../public/assets/Fundamentos-de-Programacao-Design-Orientado-a-Objetos.png';
+import scrumCertificate from '../../../../../public/assets/Fundamentos-do-Scrum.png';
+import htmlCertificate from '../../../../../public/assets/HTML-Formacao-Basica.png';
+import javaScriptCertificate from '../../../../../public/assets/JavaScript-Formacao-Basica.png';
+import fullStackCertificate from '../../../../../public/assets/Programador-Full-Stack-JavaScript-Profissional.png';
 
 interface ICertificate {
   title: string;

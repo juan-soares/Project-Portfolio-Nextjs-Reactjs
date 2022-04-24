@@ -1,5 +1,5 @@
 import StyledSection from './Section.style';
-import { ISection } from '../../index';
+import { ISection } from '../../pages/index';
 import ContentHome from './Content/Home/Home';
 import ContentAbout from './Content/About/About';
 import ContentSkills from './Content/Skills/Skills';

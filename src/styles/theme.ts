@@ -1,13 +1,13 @@
 interface ITheme {
   color: {
-    background: string
-    letters: string
-  }
+    background: string;
+    letters: string;
+  };
   fontFamily: {
-    comic: string
-    title: string
-    paragraph: string
-  }
+    comic: string;
+    title: string;
+    paragraph: string;
+  };
 }
 
 const theme: ITheme = {
@@ -20,6 +20,6 @@ const theme: ITheme = {
     title: 'Amatic SC',
     paragraph: 'Bw Gradual',
   },
-}
+};
 
-export default theme
+export default theme;
