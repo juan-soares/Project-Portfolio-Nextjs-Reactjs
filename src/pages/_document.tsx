@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-css-tags */
 import Document, {
   Head,
   Html,
@@ -17,19 +16,6 @@ export default class MyDocument extends Document {
           <meta charSet="UTF-8" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
-            rel="stylesheet"
-          />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
-            rel="stylesheet"
-          />
-          <link
-            href="//db.onlinewebfonts.com/c/9c012a100c1e4e7c4411382d3bc15526?family=Bw+Gradual"
-            rel="stylesheet"
-            type="text/css"
-          />
         </Head>
         <body>
           <Main />
