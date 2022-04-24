@@ -61,7 +61,7 @@ const ContentCertifications = (): JSX.Element => {
           return (
             <div key={certificate.title}>
               <Link
-                href={`http://localhost:3000/assets/${certificate.title
+                href={`https://juan-soares-portfolio.vercel.app/assets/${certificate.title
                   .replace(/: | /g, '-')
                   .normalize('NFD')
                   .replace(/[\u0300-\u036f]/g, '')}.png`}
