@@ -11,7 +11,7 @@ const ContentProjects = ({
       <h1 id="projetos">Projetos</h1>
       <ProjectsStyle>
         <>
-          {gitHubRepositories.map((repository: IGitHubRepository) => {
+          {gitHubRepositories?.map((repository: IGitHubRepository) => {
             return (
               <div key={repository.name}>
                 <Link href={repository.html_url}>

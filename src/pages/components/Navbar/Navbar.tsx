@@ -1,8 +1,8 @@
-import StyledNavbar from './Navbar.style'
-import { ISection } from '../../index'
+import StyledNavbar from './Navbar.style';
+import { ISection } from '../../index';
 
 interface ISections {
-  sections: ISection[]
+  sections: ISection[];
 }
 
 const Navbar = ({ sections }: ISections): JSX.Element => {
@@ -16,11 +16,11 @@ const Navbar = ({ sections }: ISections): JSX.Element => {
                 {section.title}
               </a>
             </li>
-          )
+          );
         })}
       </ul>
     </StyledNavbar>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

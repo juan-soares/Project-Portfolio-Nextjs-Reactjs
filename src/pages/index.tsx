@@ -7,7 +7,7 @@ export interface IGitHubRepository {
 }
 
 export interface IPropsGitHubRepositories {
-  gitHubRepositories: IGitHubRepository[];
+  gitHubRepositories: IGitHubRepository[] | undefined;
 }
 
 export interface ISection {

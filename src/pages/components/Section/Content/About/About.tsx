@@ -1,5 +1,6 @@
-import Link from 'next/link'
-import StyledContent from '../Content.style'
+/* eslint-disable react/no-unescaped-entities */
+import Link from 'next/link';
+import StyledContent from '../Content.style';
 
 const ContentAbout = (): JSX.Element => {
   return (
@@ -37,7 +38,7 @@ const ContentAbout = (): JSX.Element => {
         .
       </p>
     </StyledContent>
-  )
-}
+  );
+};
 
-export default ContentAbout
+export default ContentAbout;

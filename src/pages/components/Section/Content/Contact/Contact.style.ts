@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import theme from '../../../../styles/theme'
+import styled from 'styled-components';
+import theme from '../../../../styles/theme';
 
 const ContactList = styled.ul`
   li {
@@ -16,9 +16,8 @@ const ContactList = styled.ul`
     }
     a:link {
       color: ${theme.color.letters};
-
     }
   }
-`
+`;
 
-export default ContactList
+export default ContactList;

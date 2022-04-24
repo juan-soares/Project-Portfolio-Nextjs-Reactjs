@@ -1,13 +1,13 @@
-import Link from 'next/link'
-import ContactList from './Contact.style'
-import StyledContent from '../Content.style'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons'
+import Link from 'next/link';
+import ContactList from './Contact.style';
+import StyledContent from '../Content.style';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelopeOpenText } from '@fortawesome/free-solid-svg-icons';
 import {
   faLinkedin,
   faGithub,
   faWhatsapp,
-} from '@fortawesome/free-brands-svg-icons'
+} from '@fortawesome/free-brands-svg-icons';
 
 const ContentContact = (): JSX.Element => {
   return (
@@ -44,7 +44,7 @@ const ContentContact = (): JSX.Element => {
         </li>
       </ContactList>
     </StyledContent>
-  )
-}
+  );
+};
 
-export default ContentContact
+export default ContentContact;

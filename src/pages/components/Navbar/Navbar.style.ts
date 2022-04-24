@@ -1,5 +1,5 @@
-import styled from 'styled-components'
-import theme from '../../styles/theme'
+import styled from 'styled-components';
+import theme from '../../styles/theme';
 
 const StyledNavbar = styled.nav`
   padding-top: 10px;
@@ -11,7 +11,6 @@ const StyledNavbar = styled.nav`
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
 
     li {
       padding: 10px;
@@ -32,6 +31,6 @@ const StyledNavbar = styled.nav`
       }
     }
   }
-`
+`;
 
-export default StyledNavbar
+export default StyledNavbar;

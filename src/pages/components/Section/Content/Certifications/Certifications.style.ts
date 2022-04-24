@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const CertificationsCarroucel = styled.div`
   display: flex;
@@ -25,12 +25,12 @@ const CertificationsCarroucel = styled.div`
           cursor: pointer;
         }
       }
-    
-      &:hover{
+
+      &:hover {
         opacity: 0.8;
       }
     }
   }
-`
+`;
 
-export default CertificationsCarroucel
+export default CertificationsCarroucel;
