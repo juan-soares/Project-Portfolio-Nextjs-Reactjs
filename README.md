@@ -1,6 +1,6 @@
 ## :pushpin: Projeto: JC's Portfolio
 
-![Badge em Desenvolvimento](https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-orange)
+![Badge em Desenvolvimento](https://img.shields.io/badge/STATUS-CONCLUIDO-green)
 ![Badge Versão](https://img.shields.io/badge/VERS%C3%83O-1.0.0-lightgrey)
 
 # Descrição :page_with_curl:
@@ -23,7 +23,7 @@ Ferramentas complementares, como Prittier, ESLint e Typescript, também foram ut
 
 # Acesso :closed_lock_with_key:
 
-Você pode acessar o resultado final do projeto por aqui, quando estiver finalizado.
+Você pode acessar o resultado final do projeto por aqui https://juan-soares-portfolio.vercel.app/.
 
 # Autor :frowning_man:
 
